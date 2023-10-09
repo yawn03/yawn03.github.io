@@ -1,0 +1,46 @@
+.flexbox{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    height:100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: move
+}
+
+#theonlyimageonthepagerightnow {
+    width: 200px;
+    height: 200px;
+    float: right;
+    padding-right:2px;
+    border-radius:10px 10px 10px 10px;
+    background-size: cover; background-position: center center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+p{
+    font-size: 10px;
+}
+
+.cardContainer {
+    margin: 5px;
+    max-height: 450px;
+    max-width: 300px;
+    border-radius: 10px;
+    border: 2px solid;
+    display: inline-block;
+    flex: 1;
+    background-color: white;
+    opacity: 1;
+}
+
+a:hover {
+    color: chartreuse;
+}
